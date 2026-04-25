@@ -1,46 +1,76 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    body {
     background-color: #eef2f7;
+    color: #222;
 }
 
+/* HEADER */
 header {
     background-color: #1e2a38;
     color: white;
-    padding: 20px;
     text-align: center;
+    padding: 25px;
 }
 
+/* NAV BAR */
 nav {
     background-color: #2c3e50;
-    padding: 10px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
 }
 
 nav a {
     color: white;
-    margin: 10px;
     text-decoration: none;
-    font-weight: bold;
+    padding: 12px 18px;
+    display: inline-block;
+    border-radius: 6px;
+    transition: 0.3s;
 }
 
 nav a:hover {
-    color: #f39c12;
+    background-color: #f39c12;
+    color: black;
 }
 
+/* CONȚINUT */
 .container {
-    padding: 20px;
+    max-width: 1000px;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
+/* IMAGINI */
 img {
     max-width: 100%;
     border-radius: 10px;
+    margin-top: 15px;
 }
 
+/* TITLURI */
+h1, h2, h3 {
+    color: #1e2a38;
+}
+
+/* LISTE */
+ul {
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+/* FOOTER */
 footer {
     background-color: #1e2a38;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
+    margin-top: 30px;
 }
